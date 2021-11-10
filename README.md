@@ -28,4 +28,4 @@ This is a project to analyze a risk of customer credit data through clustering a
 ### Dashboard Visualization
 
 For visualization dashboard please refer on this file image below : 
-- 
+- Dashboard Visualization_Chosen Customer : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Dashboard%20Visualization_Chosen%20Customer.png
