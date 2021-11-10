@@ -1,0 +1,72 @@
+Age,Sex,Job,Housing,Saving accounts,Checking account,Credit amount,Duration,Purpose,Credit_Risk,Total_Credit_Score,reject
+45,male,Skilled,free,little,little,7882,42,furniture/equipment,Bad,472.1678842232492,Rejected
+35,male,Highly Skilled,rent,little,moderate,6948,36,car,Bad,444.87700271902713,Rejected
+25,male,Skilled,own,little,little,8072,30,business,Bad,494.07762310891036,Rejected
+63,male,Skilled,own,little,little,6836,60,business,Bad,454.76075083641285,Rejected
+31,male,Skilled,free,little,little,6110,48,education,Bad,475.5574311979975,Rejected
+58,female,Unskilled-Resident,free,little,little,6143,48,car,Bad,457.6085117138757,Rejected
+30,male,Highly Skilled,own,little,moderate,5965,27,car,Bad,451.54089212591816,Rejected
+25,male,Skilled,own,little,moderate,14421,48,business,Bad,467.85012772715356,Rejected
+58,male,Skilled,rent,little,moderate,15945,54,business,Bad,448.0968614295218,Rejected
+39,male,Highly Skilled,own,little,moderate,11938,24,vacation/others,Bad,497.0214280723559,Rejected
+39,male,Highly Skilled,own,little,little,6458,18,car,Bad,485.66252618499374,Rejected
+30,female,Highly Skilled,own,little,little,7174,42,radio/TV,Bad,447.8635335603243,Rejected
+24,female,Skilled,own,little,moderate,8487,48,car,Bad,470.6978886046164,Rejected
+36,male,Highly Skilled,rent,moderate,moderate,6967,24,business,Bad,474.04470970151317,Rejected
+53,female,Highly Skilled,own,little,little,7485,30,car,Bad,450.9991060286327,Rejected
+38,male,Highly Skilled,free,little,little,10623,30,car,Bad,451.54089212591816,Rejected
+36,male,Highly Skilled,free,little,moderate,12169,48,car,Bad,425.3133967441614,Rejected
+35,female,Unskilled-Resident,own,little,little,10722,47,car,Bad,460.99805868862404,Rejected
+31,male,Highly Skilled,free,moderate,moderate,7582,48,vacation/others,Bad,445.01577268286144,Rejected
+28,male,Highly Skilled,rent,little,moderate,9398,36,car,Bad,454.5768326350195,Rejected
+46,male,Highly Skilled,own,little,little,7629,48,business,Bad,421.9238497694131,Rejected
+44,male,Skilled,free,quite rich,little,10127,48,car,Bad,472.8278630575435,Rejected
+40,male,Unskilled-Non Resident,free,little,moderate,5381,48,vacation/others,Bad,474.46312677511287,Rejected
+24,female,Highly Skilled,own,moderate,moderate,7408,60,car,Bad,437.86098753761667,Rejected
+24,female,Unskilled-Resident,rent,moderate,little,11590,48,car,Bad,464.0339991977254,Rejected
+63,male,Highly Skilled,free,little,little,13756,60,car,Bad,421.9238497694131,Rejected
+60,female,Highly Skilled,free,moderate,moderate,14782,60,vacation/others,Bad,444.473986585576,Rejected
+37,female,Skilled,rent,little,little,7685,48,business,Bad,454.334169281733,Rejected
+57,male,Highly Skilled,free,little,moderate,14318,36,car,Bad,448.15134515116983,Rejected
+32,male,Skilled,rent,moderate,moderate,11760,39,education,Bad,468.8935417911065,Rejected
+35,male,Highly Skilled,own,little,little,7253,33,car,Bad,451.54089212591816,Rejected
+29,male,Highly Skilled,own,little,moderate,11328,24,vacation/others,Bad,500.4109750471042,Rejected
+30,male,Highly Skilled,own,little,little,11054,36,car,Bad,451.54089212591816,Rejected
+42,female,Highly Skilled,free,little,moderate,8318,27,business,Bad,450.9991060286327,Rejected
+29,male,Highly Skilled,rent,moderate,moderate,9034,36,furniture/equipment,Bad,462.28413610586347,Rejected
+53,male,Skilled,free,little,little,7119,48,furniture/equipment,Bad,472.1678842232492,Rejected
+42,male,Highly Skilled,free,little,little,7763,48,car,Bad,421.9238497694131,Rejected
+35,male,Skilled,free,little,little,8858,48,car,Bad,458.1502978111612,Rejected
+34,male,Skilled,own,little,little,6999,48,radio/TV,Bad,477.8526737498612,Rejected
+31,female,Skilled,own,little,little,6758,48,radio/TV,Bad,480.70043462732406,Rejected
+27,male,Highly Skilled,free,little,moderate,9157,60,radio/TV,Bad,454.7156025988538,Rejected
+21,male,Skilled,own,little,little,15653,60,radio/TV,Bad,487.5525036658536,Rejected
+50,male,Highly Skilled,free,little,little,7476,48,education,Bad,439.33098315624943,Rejected
+42,male,Highly Skilled,own,moderate,moderate,8086,36,car,Bad,448.15134515116983,Rejected
+37,male,Skilled,own,little,little,10222,48,radio/TV,Bad,477.8526737498612,Rejected
+42,male,Highly Skilled,own,little,little,10366,60,car,Bad,421.9238497694131,Rejected
+46,male,Skilled,free,little,little,6331,48,car,Bad,454.76075083641285,Rejected
+24,male,Skilled,own,moderate,moderate,6560,48,car,Bad,467.85012772715356,Rejected
+27,male,Highly Skilled,own,little,moderate,14027,60,car,Bad,435.0132266601538,Rejected
+63,male,Skilled,own,little,little,7596,30,car,Bad,480.98824621816965,Rejected
+59,female,Skilled,rent,little,moderate,6416,48,business,Bad,450.9446223069847,Rejected
+30,male,Highly Skilled,own,little,little,14179,39,furniture/equipment,Bad,442.72053013099776,Rejected
+25,female,Highly Skilled,own,little,little,8065,36,education,Bad,481.49561630620974,Rejected
+38,male,Highly Skilled,own,rich,little,5711,36,car,Bad,469.60800434704885,Rejected
+50,male,Skilled,free,little,moderate,6224,48,education,Bad,472.1678842232492,Rejected
+41,male,Highly Skilled,own,little,little,6313,24,car,Bad,477.3190521336559,Rejected
+55,male,Highly Skilled,free,little,moderate,9283,42,car,Bad,421.9238497694131,Rejected
+54,female,Skilled,rent,little,moderate,7432,36,car,Bad,477.1721176887414,Rejected
+47,male,Skilled,free,little,little,8335,36,car,Bad,480.98824621816965,Rejected
+38,male,Skilled,free,little,moderate,6681,48,business,Bad,458.1502978111612,Rejected
+23,male,Skilled,own,little,moderate,15672,48,business,Bad,467.85012772715356,Rejected
+34,male,Highly Skilled,own,little,little,6614,36,car,Bad,451.54089212591816,Rejected
+40,male,Skilled,rent,little,little,7824,28,car,Bad,474.32435681127856,Rejected
+31,male,Highly Skilled,own,little,little,8947,36,car,Bad,451.54089212591816,Rejected
+32,female,Highly Skilled,own,little,moderate,18424,48,vacation/others,Bad,447.8635335603243,Rejected
+37,male,Highly Skilled,own,quite rich,little,12749,48,radio/TV,Bad,463.08288490399207,Rejected
+39,male,Skilled,free,little,little,10297,48,car,Bad,454.76075083641285,Rejected
+46,male,Highly Skilled,own,little,little,6842,24,car,Bad,477.3190521336559,Rejected
+29,male,Skilled,rent,little,little,7166,42,radio/TV,Bad,471.18878434297017,Rejected
+36,male,Skilled,rent,little,little,7297,60,business,Bad,451.48640840427015,Rejected
+29,male,Highly Skilled,free,little,little,6579,24,car,Bad,480.7085991084042,Rejected
