@@ -26,5 +26,6 @@ This is a project to analyze a risk of customer credit data through clustering a
 
 ## Objective 1 - Visualize data and provide your thoughts with plots
 ### Dashboard Visualization
+
 For visualization dashboard please refer on this file image below : 
 - 
