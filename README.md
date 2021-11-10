@@ -90,6 +90,11 @@ For visualization dashboard please refer on this file image below :
 3. The rest features have low positive/negative correlation to the Target
 
 ## Objective 2 - Design Credit scoring engine
+### Notebook and Files :
+1. Jupyter Notebook Files : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Risk%20Analysis_Clustering.ipynb
+2. Input Dataset : DataForViz.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/DataForViz.csv)
+3. Output Dataset : dfClustered (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/dfClustered.csv)
+
 ### Clustering Method
 - Features to be clustered : All Features
 - Data : All data including outliers
@@ -103,5 +108,52 @@ For visualization dashboard please refer on this file image below :
   - Silhouette Score : 0.72
     - Best Cluster : 2
 - Result :
-  - asd
+  - the customers who have label "1" (Blue dot) is clustered as Good Credit Risk
+  - the customers who have label "0" (Red dot) is clustered as Bad Credit Risk
+  - Total data of Good Credit Risk is 827 data
+  - Total data of Bad Credit Risk is 173
+
+## Objective 3 - How to improve your model and approaches (Provide your thoughts and ideas)
+### Method
+I'm using Credit Scorecard analysis method to improve the model because it calculate total credit score of all data and evaluate all data to produce accepted or rejected label credits from the data
+
+### Notebook and Files :
+1. Main Jupyter Notebook Files : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Risk%20Analysis_Credit%20Scorecard.ipynb
+2. Support Files and Utilities : https://github.com/ghzza/Credit-Risk-Analysis/tree/main/Credit%20Risk%20Scorecard%20and%20Clustering/utilities
+3. Input Dataset : dfClustered.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/dfClustered.csv)
+4. Output Dataset :
+   - Chosen Customer : ChosenCustomer.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/ChosenCustomer.csv)
+   - Worst Customer : WorstCustomer.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/WorstCustomer.csv)
+
+### Credit Scorecard Step :
+1. Load Data, Library, and Support Files & Utilities
+2. Weight of Evidence (WoE) Analysis
+3. Convert Training Data to WoE Values
+4. Perform Classification Model to Predict Credit Score
+5. Generate Credit Score for All Data, and Generate Score Table
+6. Count Rejected and Accepted Customer
+7. Slice the data to get The Chosen Customer
+8. Slice the data to get The Worst Customer
+9. Finish
+
+### Next Step After Credit Scorecard Step : 
+1. Create Supervised Multi-Output Classification Machine Learning Model to predict 2 targets of new data,Credit Risk Clusters and Accepted or Rejected Credit Score, automatically and all in inclusive.
+
+### Reference for Credit Scorecard : 
+1. https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-91335fc01f03
+2. https://towardsdatascience.com/intro-to-credit-scorecard-9afeaaa3725f
+3. https://github.com/hurulee/scorecard
+
+## Objective 4 - How can we test model and deployment approaches (Provide your thoughts and ideas)
+
+### How to Test the Model
+1. For clustering algorithm, which predict Good Credit Risk and Bad Credit Risk, is already tested through Silhouette Score evaluation method. And the result is the model able to separate the data and clusters perfectly
+
+### Deployment Approaches
+1. Create clustering model deployment from scratch with Flask or Cloud Services (GCP/AWS)
+   - Reference step to deploy the model : https://towardsdatascience.com/how-to-build-deploy-an-unsupervised-learning-flask-app-from-scratch-afd3a18661a7
+2. After the data already clustered, it can be processed manually to calculate total credit score through Credit Scorecard until we get Chosen Customer and Worst Customer data result.
+3. Otherwise, we can create new machine learning model with Supervised Multi-Output Classification Model to predict 2 targets of new data,Credit Risk Clusters and Accepted or Rejected Credit Score, automatically and all in inclusive
+4. Create Supervised Multi-Output Classification Model deployment from scratch with Flask or Cloud Services
+
   
