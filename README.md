@@ -79,4 +79,29 @@ For visualization dashboard please refer on this file image below :
 3. The least of worst customer for every purpose has Unskilled - Resident Job status for Male and has Unskilled-Non Resident status for Female
 4. The most of worst customer who propose credit loan has Highly Skilled Job status, Little Saving accounts status, and Own a house
 
+### Correlation
+#### Between features
+1. Credit amount and Duration have moderately positive correlation between each other
+2. The rest features have low positive/negative correlation between each other
 
+#### Features to Target (cluster)
+1. Credit amount has high negative correlation to the Target
+2. Duration has moderate negative correlation to the Target
+3. The rest features have low positive/negative correlation to the Target
+
+## Objective 2 - Design Credit scoring engine
+### Clustering Method
+- Features to be clustered : All Features
+- Data : All data including outliers
+- Algorithm : KMeans Clustering
+- N-Clusters : 2 (Good Credit Risk and Bad Credit Risk)
+- Visualization Features :
+  - Dimensionality Reduction : PCA
+  - Credit Amount VS Duration
+  - Plot : Scatter Plots
+- Evaluation Method and Score : 
+  - Silhouette Score : 0.72
+    - Best Cluster : 2
+- Result :
+  - asd
+  
