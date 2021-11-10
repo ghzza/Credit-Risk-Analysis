@@ -34,5 +34,23 @@ For visualization dashboard please refer on this file image below :
 
 ### Insight
 #### Insight of Dashboard Visualization_DataOri : 
-- asd
-- asd
+1. Most of Male Customer is 27 years old with 37 people in total and most of Female Customer is 23 years old with 32 people in total.
+2. The most of customer for every purpose has little Saving accounts status, either they are Male or Female
+3. The least of customer for every purpose has rich Saving accounts status, either they are Male or Female
+4. The most of customer for every purpose has Skilled Job status, either they are Male or Female
+5. The least of customer for every purpose has Unskilled - Non Resident Job status, either they are Male or Female
+6. The most of customer who propose credit loan has Skilled Job status, Little Saving accounts status, and Own a house
+
+#### Insight of Dashboard Visualization_ChosenCustomer :
+##### Same insight compared to DataOri :
+
+1. The most of chosen customer for every purpose has little Saving accounts status, either they are Male or Female
+2. The least of chosen customer for every purpose has rich Saving accounts status, either they are Male or Female
+3. The most of chosen customer for every purpose has Skilled Job status, either they are Male or Female
+4. The least of chosen customer for every purpose has Unskilled - Non Resident Job status, either they are Male or Female
+5. The most of chosen customer who propose credit loan has Skilled Job status, Little Saving accounts status, and Own a house
+
+##### Difference insight compared to DataOri  : 
+
+1. Most of Male Chosen Customer is 36 and 26 years old with 29 people in total who are 36 years old and 28 people in total who are 26 years old and most of Female Chosen Customer is 23 years old with 28 people in total.
+2. The most purpose of customer in Chosen Customer is radio/TV
