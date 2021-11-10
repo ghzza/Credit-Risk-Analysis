@@ -25,6 +25,16 @@ This is a project to analyze a risk of customer credit data through clustering a
 - Purpose (text: car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, vacation/others)
 
 ## Objective 1 - Visualize data and provide your thoughts with plots
+### Notebook and Files :
+1. Jupyter Notebook Files : Credit Risk Analysis_EDA (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Risk%20Analysis_EDA.ipynb)
+2. Raw Data : data_fs.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/data_fs.csv)
+3. DataOri : DataForViz.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/DataForViz.csv)
+4. ChosenCustomer Data : ChosenCustomer.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/ChosenCustomer.csv)
+5. WorstCustomer Data : WorstCustomer.csv (https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/WorstCustomer.csv)
+6. Tableau of Dashboard Visualization_DataOri : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Analysis%20Visualization_DataOri.twb
+7. Tableau of Dashboard Visualization_Chosen Customer : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Analysis%20Visualization_ChosenCustomer.twb
+8. Tableau of Dashboard Visualization_WorstCustomer : https://github.com/ghzza/Credit-Risk-Analysis/blob/main/Credit%20Risk%20Scorecard%20and%20Clustering/Credit%20Analysis%20Visualization_WorstCustomer.twb
+
 ### Dashboard Visualization
 
 For visualization dashboard please refer on this file image below : 
@@ -54,3 +64,19 @@ For visualization dashboard please refer on this file image below :
 
 1. Most of Male Chosen Customer is 36 and 26 years old with 29 people in total who are 36 years old and 28 people in total who are 26 years old and most of Female Chosen Customer is 23 years old with 28 people in total.
 2. The most purpose of customer in Chosen Customer is radio/TV
+
+### Insight of Dashboard Visualization_WorstCustomer :
+####Same insight compared to DataOri :
+
+1. The most of worst customer for every purpose has little Saving accounts status, either they are Male or Female
+2. The least of worst customer for every purpose has rich Saving accounts status, either they are Male or Female
+3. The most purpose of customer in worst customer is Car
+
+####Difference insight compared to DataOri  :
+
+1. Most of Male Worst Customer is 29 years old with 4 people in total and most of Female Worst Customer is 24 years old with 3 people in total.
+2. The most of worst customer for every purpose has Highly Skilled Job status, either they are Male or Female
+3. The least of worst customer for every purpose has Unskilled - Resident Job status for Male and has Unskilled-Non Resident status for Female
+4. The most of worst customer who propose credit loan has Highly Skilled Job status, Little Saving accounts status, and Own a house
+
+
